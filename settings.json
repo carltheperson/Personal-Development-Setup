@@ -1,0 +1,21 @@
+{
+   "vim.easymotion": true,
+    "vim.easymotionMarkerYOffset": 6.5,
+    "vim.easymotionMarkerFontFamily": "",
+    "editor.lineNumbers": "relative",
+    "vim.easymotionMarkerFontWeight": "300",
+    "editor.minimap.enabled": false,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [" "],
+            "after": ["leader", "leader", "leader", "b", "d", "w"]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<esc>"]
+        }
+    ],
+    "workbench.colorTheme": "Material Theme Darker High Contrast"
+}
