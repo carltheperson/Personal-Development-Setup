@@ -1,0 +1,43 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+'",
+        "command": "editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+c",
+        "command": "-editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "meta+i",
+        "command": "extension.vim_escape",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+    {
+        "key": "escape",
+        "command": "-extension.vim_escape",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+    {
+        "key": "insert",
+        "command": "extension.vim_insert",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+    {
+        "key": "insert",
+        "command": "-extension.vim_insert",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+    {
+        "key": "numpad3 numpad4",
+        "command": "extension.vim_ctrl+c",
+        "when": "editorTextFocus && vim.active && vim.overrideCtrlC && vim.use<C-c> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "-extension.vim_ctrl+c",
+        "when": "editorTextFocus && vim.active && vim.overrideCtrlC && vim.use<C-c> && !inDebugRepl"
+    }
+]
